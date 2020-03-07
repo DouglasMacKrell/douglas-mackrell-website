@@ -7,6 +7,10 @@ A Douglas MacKrell Website
 ## Enter The Website Of Doom!
 A Select-Your-Own-Adventure Story!
 
+This site evokes and parodies Choose Your Own Adventure books from the 80s.
+
+* [Choose Your Own Adventure Books](https://www.cyoa.com/)
+
 ** **
 
 ## THE PROBLEM
