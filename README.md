@@ -4,20 +4,19 @@ A Douglas MacKrell Production of
 
 A Douglas MacKrell Website
 
-## Enter The Website Of Doom!
-A Select-Your-Own-Adventure Story!
-
-This site evokes and parodies Choose Your Own Adventure books from the 80s.
-
-* [Choose Your Own Adventure Books](https://www.cyoa.com/)
-
 ** **
 
 ## THE PROBLEM
 Doug needs a website to show off his cool stuff.
 
 ## THE SOLUTION
-This personal website portfolio project is designed to showcase all of Doug's cool stuff.
+This personal website portfolio project is designed to showcase all of Doug's cool stuff. Slim in design this one-page app will highlight:
+
+- About
+- Projects
+- Awards and Recognition
+- Skills
+- Resume and Links
 
 ** **
 
