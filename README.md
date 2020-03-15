@@ -22,18 +22,6 @@ This personal website portfolio project is designed to showcase all of Doug's co
 
 **WIREFRAMES**
 
-![Wireframe](Doug_Website_HOME.png)
+![Wireframe](Wireframe_UPDATE1)
 
-![Wireframe](Doug_Website_ABOUT.png)
-
-![Wireframe](whiteboard_HOME.jpg)
-
-![Wireframe](whiteboard_OVERVIEW1.jpg)
-
-![Wireframe](whiteboard_OVERVIEW2.jpg)
-
-![Wireframe](whiteboard_MOBILE.jpg)
-
-![Wireframe](whiteboard_NOTES.jpg)
-
-![Wireframe](whiteboard_TREE.jpg)
+![Wireframe](Wireframe_UPDATE2)
