@@ -8,9 +8,12 @@ class Header extends Component {
         return (
             <div className='Header-body'>
                 <YoutubeBackground
-                videoId='KdURSnjeml0'>
+                    videoId='KdURSnjeml0'
+                    overlay="rgba(0,0,0,.4)">
                     <div className='Header-text-container'>
-                        <p>TEST</p>
+                        <div className='Header-test'>
+                            <h1>Douglas MacKrell</h1>
+                        </div>
                     </div>
                 </YoutubeBackground>
             </div>
