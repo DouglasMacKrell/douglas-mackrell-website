@@ -14,8 +14,9 @@ body {
 
 .Header-text-container {
   color: white;
-  font-size: 400%;
+  font-size: 200%;
   height: 100vh;
+  font-family: 'Rock Salt', cursive;
 }
 
 .Header-test {
@@ -23,15 +24,91 @@ body {
 }
 
 .About-body {
-  background-image: url(./Yellow_GrungeBG.jpg);
+  background-image: url(./Red_GrungeBG2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
 }
 
 .About-text-container {
-  color: red;
+  color: white;
+  background-color: blue;
+  margin-left: 15%;
+  margin-right: 15%;
+  padding: 10px;
+  border-radius: 20px;
+  border-color: rebeccapurple;
+  border: solid 2px;
+}
+
+.Projects-body {
+  background-image: url(./Green_GrungeBG.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.Projects-text-container {
+  color: white;
+  background-color: goldenrod;
+  margin-left: 15%;
+  margin-right: 15%;
+  padding: 10px;
+  border-radius: 20px;
+  border-color: rebeccapurple;
+  border: solid 2px;
+}
+
+.Awards-body {
+  background-image: url(./Blue_GrungeBG.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.Awards-text-container {
+  color: white;
   background-color: purple;
   margin-left: 15%;
   margin-right: 15%;
+  padding: 10px;
+  border-radius: 20px;
+  border-color: rebeccapurple;
+  border: solid 2px;
+}
+
+.Skills-body {
+  background-image: url(./Yellow_GrungeBG.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.Skills-text-container {
+  color: white;
+  background-color: red;
+  margin-left: 15%;
+  margin-right: 15%;
+  padding: 10px;
+  border-radius: 20px;
+  border-color: rebeccapurple;
+  border: solid 2px;
+}
+
+.Links-body {
+  background-image: url(./Purple_GrungeBG2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.Links-text-container {
+  color: white;
+  background-color: orange;
+  margin-left: 15%;
+  margin-right: 15%;
+  padding: 10px;
+  border-radius: 20px;
+  border-color: rebeccapurple;
+  border: solid 2px;
 }
