@@ -1,11 +1,17 @@
 import React, { Component } from 'react';
+import JavascriptLogo from './javascript-logo.png';
+import NodeLogo from './Node-logo.png';
+import PostgresLogo from './Posgres-logo.png';
 
 class Skills extends Component {
     render() {
         return (
             <div className='Skills-body'>
                 <div className='Skills-text-container'>
-                    <p>Skills go here</p>
+                    <h1>Skills</h1>
+                    <img className='Skills-logo' src={JavascriptLogo} alt='javascript'></img>
+                    <img className='Skills-logo' src={NodeLogo} alt='node'></img>
+                    <img className='Skills-logo' src={PostgresLogo} alt='postgres'></img>
                 </div>
             </div>
         )

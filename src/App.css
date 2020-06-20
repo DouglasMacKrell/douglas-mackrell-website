@@ -42,31 +42,13 @@ body {
 }
 
 .Projects-body {
-  background-image: url(./Green_GrungeBG.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 100vh;
-}
-
-.Projects-text-container {
-  color: white;
-  background-color: goldenrod;
-  margin-left: 15%;
-  margin-right: 15%;
-  padding: 10px;
-  border-radius: 20px;
-  border-color: rebeccapurple;
-  border: solid 2px;
-}
-
-.Awards-body {
   background-image: url(./Blue_GrungeBG.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
 }
 
-.Awards-text-container {
+.Projects-text-container {
   color: white;
   background-color: purple;
   margin-left: 15%;
@@ -75,6 +57,10 @@ body {
   border-radius: 20px;
   border-color: rebeccapurple;
   border: solid 2px;
+}
+
+.Projects-logo {
+  width: 150px;
 }
 
 .Skills-body {
@@ -93,6 +79,10 @@ body {
   border-radius: 20px;
   border-color: rebeccapurple;
   border: solid 2px;
+}
+
+.Skills-logo {
+  height: 100px;
 }
 
 .Links-body {

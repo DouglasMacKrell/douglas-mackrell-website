@@ -15,7 +15,7 @@ function App() {
         <Header className='App-header' />
         <About />
         <Projects />
-        <Awards />
+        {/* <Awards /> */}
         <Skills />
         <Links />
       </div>
