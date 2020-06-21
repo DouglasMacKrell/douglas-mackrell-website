@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import HandMe from './Hand-Me.png';
 import YouDown from './You-Down.png';
+import './Projects.css'
 
 class Projects extends Component {
     render() {

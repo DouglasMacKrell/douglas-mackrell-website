@@ -4,101 +4,26 @@ body {
   margin: 0;
 }
 
+body, html {
+  height: 100%;
+}
+
 .App {
   text-align: center;
 }
 
 .Header-body {
-  height: 100vh
+  height: 100%;
 }
 
 .Header-text-container {
   color: white;
-  font-size: 200%;
   height: 100vh;
   font-family: 'Rock Salt', cursive;
 }
 
 .Header-test {
-  padding-top: 10vh;
+  padding-top: 20%;
 }
 
-.About-body {
-  background-image: url(./Red_GrungeBG2.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 100vh;
-}
 
-.About-text-container {
-  color: white;
-  background-color: blue;
-  margin-left: 15%;
-  margin-right: 15%;
-  padding: 10px;
-  border-radius: 20px;
-  border-color: rebeccapurple;
-  border: solid 2px;
-}
-
-.Projects-body {
-  background-image: url(./Blue_GrungeBG.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 100vh;
-}
-
-.Projects-text-container {
-  color: white;
-  background-color: purple;
-  margin-left: 15%;
-  margin-right: 15%;
-  padding: 10px;
-  border-radius: 20px;
-  border-color: rebeccapurple;
-  border: solid 2px;
-}
-
-.Projects-logo {
-  width: 150px;
-}
-
-.Skills-body {
-  background-image: url(./Yellow_GrungeBG.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 100vh;
-}
-
-.Skills-text-container {
-  color: white;
-  background-color: red;
-  margin-left: 15%;
-  margin-right: 15%;
-  padding: 10px;
-  border-radius: 20px;
-  border-color: rebeccapurple;
-  border: solid 2px;
-}
-
-.Skills-logo {
-  height: 100px;
-}
-
-.Links-body {
-  background-image: url(./Purple_GrungeBG2.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 100vh;
-}
-
-.Links-text-container {
-  color: white;
-  background-color: orange;
-  margin-left: 15%;
-  margin-right: 15%;
-  padding: 10px;
-  border-radius: 20px;
-  border-color: rebeccapurple;
-  border: solid 2px;
-}

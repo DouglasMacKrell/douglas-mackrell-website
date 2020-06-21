@@ -1,0 +1,28 @@
+
+.Skills-body {
+    height: 100vh;
+    background: url(../../Yellow_GrungeBG.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding-top: 10%;
+    padding-bottom: 10%;
+  }
+  
+  .Skills-text-container {
+    color: white;
+    background-color: red;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding: 10px;
+    border-radius: 20px;
+    border-color: rebeccapurple;
+    border: solid 2px;
+  }
+  
+  .Skills-logo {
+    height: 100px;
+  }
+  
+  

@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import JavascriptLogo from './javascript-logo.png';
 import NodeLogo from './Node-logo.png';
 import PostgresLogo from './Posgres-logo.png';
+import './Skills.css';
 
 class Skills extends Component {
     render() {
