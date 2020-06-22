@@ -14,6 +14,11 @@ class Header extends Component {
                         <div className='Header-test'>
                             <h1>Douglas MacKrell</h1>
                         </div>
+                        <div className='Header-download'>
+                            <a href="https://docs.google.com/document/d/1oqBG13B7k_H2bzG89-kpQib1bSnEeImcoTGLlQXJKIE/edit?usp=sharing" download="Douglas MacKrell Resume">
+                                <button>View Resume</button>
+                            </a>
+                        </div>
                     </div>
                 </YoutubeBackground>
             </div>

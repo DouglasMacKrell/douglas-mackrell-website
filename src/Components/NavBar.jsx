@@ -1,6 +1,7 @@
 import React from 'react';
 import { Nav, Navbar, Form, FormControl } from 'react-bootstrap';
 import styled from 'styled-components';
+import DMLogo from './Danger_Mouse.svg';
 const Styles = styled.div`
   .navbar { background-color: #222; }
   a, .navbar-nav, .navbar-light .nav-link {
@@ -21,7 +22,7 @@ const Styles = styled.div`
 const NavBar = () => (
   <Styles>
     <Navbar expand="lg">
-      <Navbar.Brand href="/">DM</Navbar.Brand>
+      <Navbar.Brand href="/"><img src={DMLogo} alt="DM Logo" className="NavBar-Logo"></img></Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav"/>
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="ml-auto">

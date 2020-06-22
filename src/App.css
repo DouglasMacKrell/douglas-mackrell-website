@@ -26,4 +26,10 @@ body, html {
   padding-top: 20%;
 }
 
+.Header-download {
+  padding-top: 25px;
+}
 
+.NavBar-Logo {
+  width: 40px;
+}
