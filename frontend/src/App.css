@@ -1,12 +1,13 @@
-body {
-  width: 100vw;
-  padding: 0;
-  margin: 0;
-}
 
-body, html {
+html {
   height: 100%;
 }
+
+/* body {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+} */
 
 .App {
   text-align: center;
