@@ -1,11 +1,15 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./App.css";
+import ToolBar from "./Components/ToolBar/ToolBar";
+import Home from "./Components/Home/Home";
 
 function App() {
   return (
     <div className="App">
-      Doug's website
+      <ToolBar />
+      <main style={{marginTop: "64px"}}>
+        This is my content.
+      </main>
     </div>
   );
 }
