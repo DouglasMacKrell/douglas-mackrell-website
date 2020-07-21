@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import "./App.css";
 import ToolBar from "./Components/ToolBar/ToolBar";
 import Home from "./Components/Home/Home";
 import SideDrawer from "./Components/SideDrawer/SideDrawer";
