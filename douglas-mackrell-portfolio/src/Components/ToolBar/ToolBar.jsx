@@ -2,12 +2,12 @@ import React from "react";
 import DrawerToggleButton from '../SideDrawer/DrawerToggleButton';
 import "./ToolBar.css";
 
-export default function ToolBar() {
+const ToolBar = props => {
   return (
     <header className="toolbar">
       <nav className="toolbar__navigation">
         <div>
-            <DrawerToggleButton />
+            <DrawerToggleButton click={props.handleDrawerToggleClick} />
         </div>
         <div className="toolbar__logo">
           <a href="/">THE LOGO</a>
@@ -33,3 +33,5 @@ export default function ToolBar() {
     </header>
   );
 }
+
+export default ToolBar

@@ -5,6 +5,30 @@
     position: fixed;
     top: 0;
     left: 0;
-    width: 400px;
-    
+    width: 75%;
+    max-width: 400px;
+    z-index: 200;
+}
+
+.side-drawer ul {
+    height: 100%;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.side-drawer li {
+    margin: 0.5rem 0;
+}
+
+.side-drawer a {
+    color: purple;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.side-drawer a:hover,
+.side-drawer a:active {
+    color: orange;
 }
