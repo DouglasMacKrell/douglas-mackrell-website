@@ -15,7 +15,7 @@
 }
 
 .toolbar__logo {
-    margin: 1rem;
+    margin-left: 1rem;
 }
 
 .toolbar__logo a {
@@ -48,4 +48,20 @@
 .toolbar_nav-items a:hover,
 .toolbar_nav-items a:active {
     color: orange;
+}
+
+@media (max-width: 768px) {
+    .toolbar_nav-items {
+        display: none;
+    }
+}
+
+@media (min-width: 769px) {
+    .toolbar__toggle-button {
+        display: none;
+    }
+
+    .toolbar__logo {
+        margin-left: 0;
+    }
 }

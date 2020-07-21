@@ -12,18 +12,20 @@ const App = () => {
     setSideDrawerOpen((prevDrawerState) => !prevDrawerState)
   }
 
-  let sideDrawer;
+  const handleBackdropClick = () => {
+    setSideDrawerOpen(false)
+  }
+
   let backdrop;
 
   if (sideDrawerOpen) {
-    sideDrawer = <SideDrawer />;
-    backdrop = <Backdrop />;
+    backdrop = <Backdrop click={handleBackdropClick} />;
   }
 
   return (
     <div style={{height: '100%'}}>
       <ToolBar handleDrawerToggleClick={handleDrawerToggleClick}/>
-      {sideDrawer}
+      <SideDrawer show={sideDrawerOpen} />
       {backdrop}
       <main style={{marginTop: "64px"}}>
         This is my content.

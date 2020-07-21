@@ -6,7 +6,7 @@ const ToolBar = props => {
   return (
     <header className="toolbar">
       <nav className="toolbar__navigation">
-        <div>
+        <div className="toolbar__toggle-button">
             <DrawerToggleButton click={props.handleDrawerToggleClick} />
         </div>
         <div className="toolbar__logo">
