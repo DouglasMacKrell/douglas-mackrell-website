@@ -3,15 +3,15 @@ import { Nav, Navbar, Form, FormControl } from 'react-bootstrap';
 import styled from 'styled-components';
 import DMLogo from './Danger_Mouse.svg';
 const Styles = styled.div`
-  .navbar { background-color: #222; }
+  .navbar { background-color: #fff; }
   a, .navbar-nav, .navbar-light .nav-link {
-    color: #9FFFCB;
-    &:hover { color: white; }
+    color: #222;
+    &:hover { color: red; }
   }
   .navbar-brand {
     font-size: 1.4em;
     color: #9FFFCB;
-    &:hover { color: white; }
+    &:hover { color: red; }
   }
   .form-center {
     position: absolute !important;
