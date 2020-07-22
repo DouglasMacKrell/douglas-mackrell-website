@@ -7,7 +7,7 @@ const ToolBar = props => {
     <header className="toolbar">
       <nav className="toolbar__navigation">
         <div className="toolbar__toggle-button">
-            <DrawerToggleButton click={props.handleDrawerToggleClick} />
+          <DrawerToggleButton click={props.handleDrawerToggleClick} />
         </div>
         <div className="toolbar__logo">
           <a href="/">THE LOGO</a>
@@ -16,16 +16,19 @@ const ToolBar = props => {
         <div className="toolbar_nav-items">
           <ul>
             <li>
-              <a href="/">About</a>
+              <a href="/">Home</a>
             </li>
             <li>
-              <a href="/">Projects</a>
+              <a href="/about">About</a>
             </li>
             <li>
-              <a href="/">Skills</a>
+              <a href="/projects">Projects</a>
             </li>
             <li>
-              <a href="/">Links</a>
+              <a href="/skills">Skills</a>
+            </li>
+            <li>
+              <a href="/links">Links</a>
             </li>
           </ul>
         </div>

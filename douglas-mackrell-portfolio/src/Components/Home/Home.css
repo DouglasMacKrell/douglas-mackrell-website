@@ -1,0 +1,54 @@
+.home {
+  text-align: center;
+  color: white;
+}
+
+.home__youtube {
+  height: 100vh;
+  width: 100vw;
+}
+
+.home__text-container {
+  margin-top: 25%;
+  font-size: 2rem;
+  font-family: "Rock Salt", cursive;
+}
+
+.home__resume-button button {
+  font-size: 1.5rem;
+  background-color: purple;
+  color: white;
+  padding: 12px;
+  border-radius: 10px;
+  box-shadow: 1px 0px 7px rgba(0, 0, 0, 0.5);
+}
+
+.home__resume-button button:hover {
+  font-size: 1.5rem;
+  background-color: orange;
+  color: white;
+  padding: 12px;
+  border-radius: 10px;
+  box-shadow: 1px 0px 7px rgba(0, 0, 0, 0.5);
+}
+
+.home__resume-button button:active {
+  font-size: 1.5rem;
+  background-color: rgba(255, 166, 0, 0.755);
+  color: white;
+  padding: 9px;
+  border-radius: 10px;
+  box-shadow: 1px 0px 7px rgba(0, 0, 0, 0.5);
+}
+
+.home__resume-button button:focus {
+    outline: none;
+}
+
+@media (max-width: 768px) {
+  .home__text-container {
+    margin-top: 35%;
+    font-size: 1.5rem;
+    font-family: "Rock Salt", cursive;
+  }
+}
