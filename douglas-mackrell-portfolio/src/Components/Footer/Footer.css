@@ -1,0 +1,45 @@
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: purple;
+    height: 56px;
+    z-index: 50;
+    font-size: 2.5rem;
+}
+
+.footer__navigation {
+    height: 100%;
+    align-items: center;
+    padding: 0 1rem;
+}
+
+.footer__nav-items {
+    display: flex;
+    color: white;
+}
+
+.spacer {
+    flex: 1;
+}
+
+.fab {
+    color: white;
+    padding: 10px;
+}
+
+.fab:hover,
+.fab:active {
+    color: orange;
+}
+
+.fas {
+    color: white;
+    padding: 10px;
+}
+
+.fas:hover,
+.fas:active {
+    color: orange;
+}

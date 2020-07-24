@@ -8,7 +8,7 @@ import Backdrop from "./Components/Backdrop/Backdrop";
 import About from "./Components/About/About"
 import Projects from "./Components/Projects/Projects"
 import Skills from "./Components/Skills/Skills"
-import Links from "./Components/Links/Links"
+import Footer from "./Components/Footer/Footer";
 
 
 const App = () => {
@@ -34,12 +34,12 @@ const App = () => {
         <ToolBar handleDrawerToggleClick={handleDrawerToggleClick} />
         <SideDrawer show={sideDrawerOpen} />
         {backdrop}
+        <Footer />
         <main>
           <Route exact path="/" component={Home} />
           <Route path="/about" component={About} />
           <Route path="/projects" component={Projects} />
           <Route path="/skills" component={Skills} />
-          <Route path="/links" component={Links} />
         </main>
       </Router>
     </div>

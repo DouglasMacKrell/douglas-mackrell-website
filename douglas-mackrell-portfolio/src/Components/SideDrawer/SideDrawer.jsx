@@ -23,9 +23,6 @@ const SideDrawer = props => {
           <li>
             <a href="/skills">Skills</a>
           </li>
-          <li>
-            <a href="/links">Links</a>
-          </li>
         </ul>
       </nav>
     );
