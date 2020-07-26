@@ -24,22 +24,12 @@
     flex: 1;
 }
 
-.fab {
+.fab, .fas {
     color: white;
     padding: 10px;
 }
 
-.fab:hover,
-.fab:active {
-    color: orange;
-}
-
-.fas {
-    color: white;
-    padding: 10px;
-}
-
-.fas:hover,
-.fas:active {
+.fab:hover, .fas:hover,
+.fab:active, .fas:active {
     color: orange;
 }

@@ -21,6 +21,12 @@
   border-radius: 20px;
 }
 
+.about__sub-container h1 {
+  margin-top: 0;
+  font-family: "Rock Salt", cursive;
+  text-align: center;
+}
+
 .about__sub-container a {
   color: red;
   font-weight: bold;
@@ -35,6 +41,8 @@
 .about__headshot {
   float: left;
   margin: 15px;
+  margin-right: 25px;
+  margin-left: 0;
   width: 50%;
   border: 5px skyblue solid;
   border-radius: 25px;
@@ -61,4 +69,17 @@
     padding: 25% 10%;
     font-size: 16px;
   }
+
+  .about__sub-container h1 {
+    font-size: 1.5rem;
+  }
+
+  .about__headshot {
+  float: left;
+  margin: 15px;
+  margin-left: 0;
+  width: 50%;
+  border: 5px skyblue solid;
+  border-radius: 25px;
+}
 }
