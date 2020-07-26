@@ -1,5 +1,6 @@
 import React from "react";
 import DrawerToggleButton from '../SideDrawer/DrawerToggleButton';
+import { NavLink } from 'react-router-dom';
 import "./ToolBar.css";
 
 const ToolBar = props => {
@@ -16,16 +17,16 @@ const ToolBar = props => {
         <div className="toolbar_nav-items">
           <ul>
             <li>
-              <a href="/">Home</a>
+              <NavLink to="/">Home</NavLink>
             </li>
             <li>
-              <a href="/about">About</a>
+              <NavLink to="/about">About</NavLink>
             </li>
             <li>
-              <a href="/projects">Projects</a>
+              <NavLink to="/projects">Projects</NavLink>
             </li>
             <li>
-              <a href="/skills">Skills</a>
+              <NavLink to="/skills">Skills</NavLink>
             </li>
           </ul>
         </div>

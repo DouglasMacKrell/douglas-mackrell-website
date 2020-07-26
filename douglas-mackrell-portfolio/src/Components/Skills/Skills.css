@@ -35,6 +35,24 @@
     outline: none;
 }
 
+.skills__sub-container button:hover {
+  font-size: 1rem;
+  background-color: gold;
+  color: black;
+  padding: 12px;
+  border-radius: 10px;
+  box-shadow: 1px 0px 7px rgba(0, 0, 0, 0.5);
+}
+
+.skills__sub-container button:active {
+  font-size: 1rem;
+  background-color: goldenrod;
+  color: black;
+  padding: 9px;
+  border-radius: 10px;
+  box-shadow: 1px 0px 7px rgba(0, 0, 0, 0.5);
+}
+
 .skills__skills-container {
   display: flex;
   flex-wrap: wrap;

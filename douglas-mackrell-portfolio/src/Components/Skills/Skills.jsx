@@ -18,7 +18,7 @@ const Skills = () => {
     <div className="skills">
       <div className="skills__main-container">
         <div className="skills__sub-container">
-          <h1>Skills Page</h1>
+          <h1>Douglas MacKrell's Proven Skills</h1>
           <button onClick={handleToggleText}>
             {displayListText ? "Swap Text For Icons" : "Swap Icons For Text"}
           </button>
