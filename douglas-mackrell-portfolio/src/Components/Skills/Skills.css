@@ -98,7 +98,8 @@
     visibility: hidden;
 }
 
-.icon-container:hover p {
+.icon-container:hover p,
+.icon-container:active p {
     visibility: visible;
 }
 

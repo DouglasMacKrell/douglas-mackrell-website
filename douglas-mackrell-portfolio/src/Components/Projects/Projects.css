@@ -1,0 +1,39 @@
+.projects {
+  min-height: 100%;
+  background-image: url(./Blue_GrungeBG.jpg);
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.projects__main-container {
+  padding: 10% 10%;
+  font-size: 20px;
+}
+
+.projects__sub-container {
+  display: grid;
+  grid-template-rows: auto;
+  padding: 5% 5%;
+  color: white;
+  background: purple;
+  border: 5px palevioletred solid;
+  border-radius: 20px;
+}
+
+.projects__sub-container h1 {
+  margin-top: 0;
+  font-family: "Rock Salt", cursive;
+  text-align: center;
+}
+
+.projects__card-container {
+    border-radius: 15px;
+    background-color: royalblue;
+}
+
+.project-card {
+    color:black;
+    margin: 10px;
+}
