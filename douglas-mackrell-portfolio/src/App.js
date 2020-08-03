@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { BrowserRouter as Router, Route } from "react-router-dom";
 
 import ToolBar from "./Components/ToolBar/ToolBar";
 import Home from "./Components/Home/Home";

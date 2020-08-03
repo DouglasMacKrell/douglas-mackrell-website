@@ -12,7 +12,7 @@ const About = () => {
           <div className="about__text-container">
             <img
               src={DougHeadshot}
-              alt="A really handsome picture of Douglas MacKrell"
+              alt="Douglas MacKrell is so handsome!"
               className="about__headshot"
             ></img>
             <p>
@@ -44,6 +44,7 @@ const About = () => {
           </div>
           <div className="about__youtube-container">
             <iframe
+            title="Going Green"
               className="about__youtube-iframe"
               width="560"
               height="315"
