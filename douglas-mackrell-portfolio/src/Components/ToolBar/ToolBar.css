@@ -19,10 +19,15 @@
     margin-left: 1rem;
 }
 
+.toolbar__logo img {
+    width: 45px;
+    height: auto;
+    padding-top: 5px;
+}
+
 .toolbar__logo a {
     color: white;
     text-decoration: none;
-    font-size: 1.5rem;
 }
 
 .spacer {
@@ -54,6 +59,9 @@
     .toolbar_nav-items {
         display: none;
     }
+    .toolbar__toggle-button {
+        margin-right: 15px;
+    }
 }
 
 @media (min-width: 769px) {
@@ -62,6 +70,6 @@
     }
 
     .toolbar__logo {
-        margin-left: 0;
+        margin-left: 5px;
     }
 }

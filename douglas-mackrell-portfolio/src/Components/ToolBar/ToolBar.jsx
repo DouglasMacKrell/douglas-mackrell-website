@@ -3,6 +3,8 @@ import DrawerToggleButton from '../SideDrawer/DrawerToggleButton';
 import { NavLink } from 'react-router-dom';
 import "./ToolBar.css";
 
+import Logo from './Doug-Logo-Red.svg'
+
 const ToolBar = props => {
   return (
     <header className="toolbar">
@@ -11,7 +13,7 @@ const ToolBar = props => {
           <DrawerToggleButton click={props.handleDrawerToggleClick} />
         </div>
         <div className="toolbar__logo">
-          <a href="/">THE LOGO</a>
+          <a href="/"><img src={Logo} alt="Douglas MacKrell Logo" /></a>
         </div>
         <div className="spacer" />
         <div className="toolbar_nav-items">

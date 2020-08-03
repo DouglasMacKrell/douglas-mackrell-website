@@ -39,3 +39,16 @@
     color:black;
     margin: 10px;
 }
+
+@media (max-width: 768px) {
+  .projects__sub-container {
+    margin-top: 20%;
+    margin-bottom: 20%;
+  }
+  .projects__sub-container h1 {
+  margin-top: 0;
+  font-family: "Rock Salt", cursive;
+  text-align: center;
+  font-size: 2rem;
+}
+}

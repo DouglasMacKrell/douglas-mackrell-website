@@ -14,21 +14,14 @@
   position: absolute;
   top: 10px;
   left: 16px;
-  color: white;
+  color: magenta;
   font-weight: bold;
 }
 
 .project-card__image {
   bottom: 0;
   width: 100%;
-  transition: transform 0.6s ease;
 }
-
-/* .project-card__image:hover,
-.project-card__image:active {
-  transform: scale(1.2);
-  object-fit: contain;
-} */
 
 .accordion__content {
   overflow: hidden;
@@ -50,4 +43,14 @@
 
 .rotate {
   transform: rotate(90deg);
+}
+
+@media (max-width: 768px) {
+.accordion p {
+  position: absolute;
+  top: 0;
+  left: 10px;
+  color: magenta;
+  font-weight: bold;
+}
 }
