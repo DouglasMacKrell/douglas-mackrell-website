@@ -9,7 +9,6 @@ import About from "./Components/About/About"
 import Projects from "./Components/Projects/Projects"
 import Skills from "./Components/Skills/Skills"
 import Footer from "./Components/Footer/Footer";
-import Social from "./Components/Social/Social";
 
 
 const App = () => {
@@ -41,7 +40,6 @@ const App = () => {
           <Route path="/about" component={About} />
           <Route path="/projects" component={Projects} />
           <Route path="/skills" component={Skills} />
-          <Route path="/social" component={Social} />
         </main>
       </Router>
     </div>
