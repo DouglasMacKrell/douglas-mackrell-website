@@ -41,7 +41,7 @@ const App = () => {
           <Route path="/about" component={About} />
           <Route path="/projects" component={Projects} />
           <Route path="/skills" component={Skills} />
-          <Route path="/social/secret/screening" component={Social} />
+          <Route path="/social" component={Social} />
         </main>
       </Router>
     </div>
