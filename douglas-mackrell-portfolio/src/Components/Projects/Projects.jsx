@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 
 import ProjectCard from "../ProjectCard/ProjectCard";
 import HandMeDown from "./Hand-Me-Down.gif";
@@ -10,13 +10,7 @@ import GFHangman from "./GF-Hangman.gif";
 import "./Projects.css";
 
 const Projects = () => {
-  // const [showCard, setShowCard] = useState(false);
-  // const [selectedCard, setSelectedCard] = useState(0);
 
-  // const handleSelectCard = (e) => {
-  //   setSelectedCard(e.target.value);
-  //   setShowCard((prevShowState) => !prevShowState);
-  // };
 
   return (
     <div className="projects">
