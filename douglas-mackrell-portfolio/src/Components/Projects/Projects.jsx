@@ -11,7 +11,6 @@ import "./Projects.css";
 
 const Projects = () => {
 
-
   return (
     <div className="projects">
       <div className="projects__main-container">

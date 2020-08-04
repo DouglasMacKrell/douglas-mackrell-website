@@ -1,15 +1,14 @@
 import React, { useState } from "react";
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 import ToolBar from "./Components/ToolBar/ToolBar";
 import Home from "./Components/Home/Home";
 import SideDrawer from "./Components/SideDrawer/SideDrawer";
 import Backdrop from "./Components/Backdrop/Backdrop";
-import About from "./Components/About/About"
-import Projects from "./Components/Projects/Projects"
-import Skills from "./Components/Skills/Skills"
+import About from "./Components/About/About";
+import Projects from "./Components/Projects/Projects";
+import Skills from "./Components/Skills/Skills";
 import Footer from "./Components/Footer/Footer";
-
 
 const App = () => {
   const [sideDrawerOpen, setSideDrawerOpen] = useState(false);
@@ -36,10 +35,12 @@ const App = () => {
         {backdrop}
         <Footer />
         <main>
-          <Route exact path="/" component={Home} />
-          <Route path="/about" component={About} />
-          <Route path="/projects" component={Projects} />
-          <Route path="/skills" component={Skills} />
+          <Switch>
+            <Route exact path="/" component={Home} />
+            <Route path="/about" component={About} />
+            <Route path="/projects" component={Projects} />
+            <Route path="/skills" component={Skills} />
+          </Switch>
         </main>
       </Router>
     </div>
