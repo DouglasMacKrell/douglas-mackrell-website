@@ -1,0 +1,57 @@
+.fourzerofour {
+  min-height: 100%;
+  top: 0;
+  left: 0;
+  background-image: url(./Green-GrungeBG404.png);
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.fourzerofour__main-container {
+  padding-top: 60px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  height: 100vh;
+  min-width: 100vw;
+}
+
+.fzf-text {
+  grid-row: 1 / span 2;
+  grid-column: 1 / span 2;
+  z-index: 1;
+  width: 60vw;
+  display: none;
+}
+
+.doug-puzz {
+  grid-row: 1;
+  grid-column: 3;
+  width: 60vw;
+  display: none;
+}
+
+@media (max-width: 1025px) {
+  .fourzerofour {
+    min-height: 100%;
+    background-image: url(./Green_GrungeBG.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .fourzerofour__main-container {
+      padding: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+
+  .fzf-text {
+      display: flex;
+      width: 80vw
+  }
+}

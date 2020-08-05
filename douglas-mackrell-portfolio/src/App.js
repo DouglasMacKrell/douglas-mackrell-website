@@ -9,6 +9,7 @@ import About from "./Components/About/About";
 import Projects from "./Components/Projects/Projects";
 import Skills from "./Components/Skills/Skills";
 import Footer from "./Components/Footer/Footer";
+import FourZeroFour from "./Components/FourZeroFour/FourZeroFour";
 
 const App = () => {
   const [sideDrawerOpen, setSideDrawerOpen] = useState(false);
@@ -40,6 +41,7 @@ const App = () => {
             <Route path="/about" component={About} />
             <Route path="/projects" component={Projects} />
             <Route path="/skills" component={Skills} />
+            <Route component={FourZeroFour} />
           </Switch>
         </main>
       </Router>
