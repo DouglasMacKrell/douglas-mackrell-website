@@ -4,6 +4,8 @@ A Douglas MacKrell Production of
 
 A Douglas MacKrell Website
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/aa6adcc1-00f7-472a-b25b-ae3ba878ddc6/deploy-status)](https://app.netlify.com/sites/douglasmackrell/deploys)
+
 ** **
 
 ## THE PROBLEM
