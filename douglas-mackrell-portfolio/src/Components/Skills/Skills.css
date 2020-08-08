@@ -106,6 +106,12 @@
 .svg {
     width: 64px;
     padding: 0 25px;
+    fill: white;
+}
+
+svg:hover,
+svg:active {
+    fill: yellow;
 }
 
 
