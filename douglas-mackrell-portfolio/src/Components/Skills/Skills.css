@@ -22,8 +22,8 @@
 }
 
 .skills__sub-container h1 {
-    font-family: "Rock Salt", cursive;
-    margin-top: 0;
+  font-family: "Rock Salt", cursive;
+  margin-top: 0;
 }
 
 .skills__sub-container button {
@@ -37,7 +37,7 @@
 }
 
 .skills__sub-container button:focus {
-    outline: none;
+  outline: none;
 }
 
 .skills__sub-container button:hover {
@@ -77,7 +77,7 @@
 }
 
 .skills__skills-container li {
-    padding-bottom: 10px;
+  padding-bottom: 10px;
 }
 
 .skills__skills-container i:hover,
@@ -90,34 +90,50 @@
 
 .skills__icons {
   display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.skills__icons h2 {
+  font-family: "Rock Salt", cursive;
+  text-decoration: underline;
+}
+
+.client-side,
+.server-side,
+.deployment,
+.devops,
+.project-management,
+.social-media,
+.art-and-design {
+  display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
 
 .icon-container p {
-    visibility: hidden;
+  visibility: hidden;
 }
 
 .icon-container:hover p,
 .icon-container:active p {
-    visibility: visible;
+  visibility: visible;
 }
 
 .svg {
-    width: 64px;
-    padding: 0 25px;
-    fill: white;
+  width: 64px;
+  padding: 0 25px;
+  fill: white;
 }
 
 svg:hover,
 svg:active {
-    fill: yellow;
+  fill: yellow;
 }
-
 
 @media (max-width: 768px) {
   .skills__main-container {
-    padding: 25% 10%;
+    padding: 25% 0%;
     font-size: 16px;
   }
 
@@ -125,5 +141,10 @@ svg:active {
     font-family: "Rock Salt", cursive;
     font-size: 1.2rem;
     margin-top: 0;
-}
+  }
+  .skills__icons h2 {
+    font-family: "Rock Salt", cursive;
+    font-size: 1rem;
+    text-decoration: underline;
+  }
 }

@@ -37,6 +37,10 @@
 }
 
 @media (max-width: 768px) {
+  .projects__main-container {
+  padding: 10% 0%;
+  font-size: 20px;
+}
   .projects__sub-container {
     margin-top: 20%;
     margin-bottom: 20%;
