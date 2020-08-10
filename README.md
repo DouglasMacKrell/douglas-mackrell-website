@@ -6,7 +6,7 @@
 
 # Douglas MacKrell's Personal Portfolio Website!
 
-![Douglas MacKrell](https://www.douglasmackrell.com/Doug-Portfolio-Social.png)
+[![Douglas MacKrell](https://www.douglasmackrell.com/Doug-Portfolio-Social.png)](https://dougmackrell.com)
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/aa6adcc1-00f7-472a-b25b-ae3ba878ddc6/deploy-status)](https://app.netlify.com/sites/douglasmackrell/deploys)
 
