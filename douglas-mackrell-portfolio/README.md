@@ -13,7 +13,7 @@
 ## Videos
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=9q5eMg6uLR0" target="_blank"><img src="http://img.youtube.com/vi/9q5eMg6uLR0/0.jpg" 
-alt="Video Walkthrough Of DougTV" width="400" height="240" border="10" /></a>  
+alt="Video Walkthrough Of DougTV" width="480" height="360" border="10" /></a>  
 * [Responsive Navigation Bar With Slide Drawer - Personal Portfolio Website](https://youtu.be/9q5eMg6uLR0)
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=n-HLFWfexMg" target="_blank"><img src="http://img.youtube.com/vi/n-HLFWfexMg/0.jpg" 
@@ -21,9 +21,16 @@ alt="Video Walkthrough Of DougTV" width="480" height="360" border="10" /></a>
 * [Home Page - Personal Portfolio Website](https://youtu.be/n-HLFWfexMg)
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=XqCmr_97EZU" target="_blank"><img src="http://img.youtube.com/vi/XqCmr_97EZU/0.jpg" 
-alt="Video Walkthrough Of DougTV" width="240" height="180" border="10" /></a>  
-* [Home Page - Personal Portfolio Website](https://youtu.be/XqCmr_97EZU)
+alt="Video Walkthrough Of DougTV" width="480" height="360" border="10" /></a>  
+* [About Page - Personal Portfolio Website](https://youtu.be/XqCmr_97EZU)
 
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=ivdGSl5cUyQ" target="_blank"><img src="http://img.youtube.com/vi/ivdGSl5cUyQ/0.jpg" 
+alt="Video Walkthrough Of DougTV" width="480" height="360" border="10" /></a>  
+* [Responsive Footer With Links - Personal Portfolio Website](https://youtu.be/ivdGSl5cUyQ)
+
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=CyR5gY_ErOo" target="_blank"><img src="http://img.youtube.com/vi/CyR5gY_ErOo/0.jpg" 
+alt="Video Walkthrough Of DougTV" width="480" height="360" border="10" /></a>  
+* [Skills Page - Personal Portfolio Website](https://youtu.be/CyR5gY_ErOo)
 
 ## THE PROBLEM
 Doug needs a website to show off his cool stuff.
