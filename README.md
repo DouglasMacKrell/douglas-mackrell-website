@@ -125,15 +125,15 @@ Users are able to:
 
 ## Local Setup
 
-You must have installed [Node.js](https://nodejs.org) in your computer.
+**NOTE: You must install [Node.js](https://nodejs.org) in your computer for this to run.**
 
-You can check for these dependencies with `node -v`. If your shell/terminal doesn't complain and you see version numbers you are good to go.
+You can check to see if you already have Node.js by typing `node -v` in your terminal. If your shell/terminal doesn't complain and you see version numbers you are good to go.
 
 1. Clone this repo into a folder of your choice:
 
        `git clone https://github.com/DouglasMacKrell/douglas-mackrell-website.git`
 
-2. Install dependencies the React App (`client` folder):
+2. Install dependencies for the React App (`douglas-mackrell-portfolio` folder):
 
        `cd douglas-mackrell-portfolio && npm install`
 
