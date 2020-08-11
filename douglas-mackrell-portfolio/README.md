@@ -125,11 +125,9 @@ Users are able to:
 
 ## Local Setup
 
-**NOTE: This repo has been configured for deployment on Heroku, but can be run locally after a few adjustments.**
+You must have installed [Node.js](https://nodejs.org) in your computer.
 
-You must have installed [Node.js](https://nodejs.org) as well as [PostgreSQL](https://www.postgresql.org/) in your computer.
-
-You can check for these dependencies with `node -v` and `psql -v`. If your shell/terminal doesn't complain and you see version numbers you are good to go.
+You can check for these dependencies with `node -v`. If your shell/terminal doesn't complain and you see version numbers you are good to go.
 
 1. Clone this repo into a folder of your choice:
 
