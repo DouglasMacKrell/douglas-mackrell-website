@@ -94,7 +94,7 @@ Users are able to:
 * Projects Page
   * Houses reusable Project Cards
 * Project Cards
-  * Accordion open to reveal
+  * Accordion opens to reveal:
     * Description
     * Awards
     * Live link
@@ -106,8 +106,9 @@ Users are able to:
 
 ## Future Features
 
-* Adding more completed projects as Project Cards on the Projects Page
-* Adding a specific page to showcase Douglas MacKrell's video production work
+* Add more completed projects as Project Cards on the Projects Page
+* Add a specific page to showcase Douglas MacKrell's video production work
+* Keep links fresh and relevant
 
 ## Technical Milestones
 
