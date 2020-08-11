@@ -48,9 +48,10 @@ alt="Updating Skills and Project Pages - Personal Portfolio Website" width="240"
 Doug needs a website to show off his cool stuff.
 
 ## THE SOLUTION
-This personal website portfolio project is designed to showcase all of Doug's cool stuff. Slim in design this one-page app will highlight:
+This personal website portfolio project is designed to showcase all of Douglas MacKrell's cool stuff. This React App will highlight:
 
 * About
+  * A brief overview of who Douglas MacKrell is and why you should get to know him better
 * Projects
   * Awards and Recognition
   * Live Link
@@ -65,9 +66,7 @@ This personal website portfolio project is designed to showcase all of Doug's co
 
 ** **
 
-## Features
-
-Users are able to:
+## FEATURES
 
 * Navigation Bar
   * Shows site logo which acts as a Home Page Redirect button
@@ -104,19 +103,19 @@ Users are able to:
     * On hover, changes color and reveals text defining each icon
   * Button to swap icons for an alphabetized text list of all skills
 
-## Future Features
+## FUTURE FEATURES
 
 * Add more completed projects as Project Cards on the Projects Page
 * Add a specific page to showcase Douglas MacKrell's video production work
 * Keep links fresh and relevant
 
-## Technical Milestones
+## TECHNICAL MILESTONES
 
 * Creating a responsive animated Slide Drawer in plain JavaScript, HTML5, and CSS3
 * Incorporating icons through Fontawesome and Devicon
 * Learning how to adjust SVG files so they can be controlled directly through CSS3
 
-## Technologies Used
+## TECHNOLOGIES USED
 
 * **React.js** For the front-end/client interface of my app
 * **react-youtube-background** to use a YouTube video as the background of my Home Page
@@ -124,7 +123,7 @@ Users are able to:
 * **HTML5**
 * **CSS3**
 
-## Local Setup
+## LOCAL SETUP
 
 **NOTE: You must install [Node.js](https://nodejs.org) in your computer for this to run.**
 
