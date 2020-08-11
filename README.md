@@ -6,7 +6,7 @@
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/aa6adcc1-00f7-472a-b25b-ae3ba878ddc6/deploy-status)](https://app.netlify.com/sites/douglasmackrell/deploys)
 
-**Douglas MacKrell** is a Full Stack Web Developer who is currently looking for work primarily in and around the NYC area, or remote! 
+**Douglas MacKrell** is a NYC based Full Stack Web Developer who is currently looking for work! 
 
 ** **
 
@@ -50,11 +50,121 @@ Doug needs a website to show off his cool stuff.
 ## THE SOLUTION
 This personal website portfolio project is designed to showcase all of Doug's cool stuff. Slim in design this one-page app will highlight:
 
-- About
-- Projects
-  - Awards and Recognition
-- Skills
-- Resume and Links To Social Media And Email
+* About
+* Projects
+  * Awards and Recognition
+  * Live Link
+  * GitHub Repo Link
+* Skills
+* Links
+  * Resume
+  * GitHub
+  * YouTube
+  * Twitter
+  * Email
+
+** **
+
+## Features
+
+Users are able to:
+
+* Navigation Bar
+  * Shows site logo which acts as a Home Page Redirect button
+  * Removes links on right side of screen when screen is too small and replaces with a Hamburger Menu button on left
+* Footer
+  * Links to:
+    * Douglas MacKrell's GitHub Profile
+    * Douglas MacKrell's YouTube Channel
+    * Douglas MacKrell's Twitter Profile
+    * Email mailto Link with format subject and body 
+* Slide Drawer
+  * Is only accessible on smaller screens
+  * Animates on and off screen with a transition effect
+  * Accessed through a hamburger menu button
+* Backdrop
+  * Overlays site when Slide Drawer is open
+  * Listens for click to close Slide Drawer when open
+* Home Page
+  * Resume Button leads to Douglas MacKrell's resume hosted on Google Drive
+  * Uses a YouTube video as a background with the react-youtube-background dependency
+* About Page
+  * Handsome headshot of Douglas MacKrell floats to the left around text
+  * Embedded YouTube playlist of Going Green episodes - Douglas MacKrell's ongoing YouTube series detailing his ongoing quest to complete at least 365 days of non-stop commits to GitHub
+* Projects Page
+  * Houses reusable Project Cards
+* Project Cards
+  * Accordion open to reveal
+    * Description
+    * Awards
+    * Live link
+    * GitHub repo link
+* Skills
+  * Sectioned icons representing Douglas MacKrell's various skills
+    * On hover, changes color and reveals text defining each icon
+  * Button to swap icons for an alphabetized text list of all skills
+
+## Future Features
+
+* Adding more completed projects as Project Cards on the Projects Page
+* Adding a specific page to showcase Douglas MacKrell's video production work
+
+## Technical Milestones
+
+* Creating a responsive animated Slide Drawer in plain JavaScript, HTML5, and CSS3
+* Incorporating icons through Fontawesome and Devicon
+* Learning how to adjust SVG files so they can be controlled directly through CSS3
+
+## Technologies Used
+
+* **React.js** For the front-end/client interface of my app
+* **react-youtube-background** to use a YouTube video as the background of my Home Page
+* **JavaScript**
+* **HTML5**
+* **CSS3**
+
+## Local Setup
+
+**NOTE: This repo has been configured for deployment on Heroku, but can be run locally after a few adjustments.**
+
+You must have installed [Node.js](https://nodejs.org) as well as [PostgreSQL](https://www.postgresql.org/) in your computer.
+
+You can check for these dependencies with `node -v` and `psql -v`. If your shell/terminal doesn't complain and you see version numbers you are good to go.
+
+1. Clone this repo into a folder of your choice:
+
+       `git clone https://github.com/DouglasMacKrell/douglas-mackrell-website.git`
+
+2. Install dependencies the React App (`client` folder):
+
+       `cd douglas-mackrell-portfolio && npm install`
+
+4. To launch the React App, inside the `douglas-mackrell-portfolio` folder, and run:
+
+       `npm start`
+
+10. A new browser tab should have been opened and the App should be running. If that is not the case check the terminals output for errors, if you are unable to troubleshoot the problem, I would be happy to address issues so open [one](/issues)
+
+---
+
+### Please check out one of my favorite projects, [DougTV!](https://dougtv.herokuapp.com)
+
+---
+
+[![DougTV Social Media](https://dougtv.herokuapp.com/DougTV-Social.png)](https://dougtv.herokuapp.com)
+
+---
+
+<details>
+    <summary>
+        Before you leave, please take note:
+    </summary>
+
+You're the best! Thank you for visiting!
+
+Please give this project a star and be sure to check out my [YouTube Channel](https://youtube.com/BigMacKrell)!
+
+</details>
 
 ** **
 
