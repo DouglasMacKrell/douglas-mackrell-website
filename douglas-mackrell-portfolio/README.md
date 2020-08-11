@@ -45,7 +45,7 @@ alt="Updating Skills and Project Pages - Personal Portfolio Website" width="240"
 * [Updating Skills and Project Pages - Personal Portfolio Website](https://youtu.be/zUU8kzKjxfY)
 
 ## THE PROBLEM
-Doug needs a website to show off his cool stuff.
+Douglas MacKrell needs a website to show off his cool stuff.
 
 ## THE SOLUTION
 This personal website portfolio project is designed to showcase all of Douglas MacKrell's cool stuff. This React App will highlight:
@@ -166,6 +166,6 @@ Please give this project a star and be sure to check out my [YouTube Channel](ht
 
 ** **
 
-**WIREFRAMES**
+## WIREFRAMES
 
 COMING SOON!
