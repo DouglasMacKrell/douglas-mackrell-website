@@ -137,11 +137,11 @@ You can check to see if you already have Node.js by typing `node -v` in your ter
 
        `cd douglas-mackrell-portfolio && npm install`
 
-4. To launch the React App, inside the `douglas-mackrell-portfolio` folder, and run:
+3. To launch the React App, inside the `douglas-mackrell-portfolio` folder, and run:
 
        `npm start`
 
-10. A new browser tab should have been opened and the App should be running. If that is not the case check the terminals output for errors, if you are unable to troubleshoot the problem, I would be happy to address issues so open [one](/issues)
+4. A new browser tab should have been opened and the App should be running. If that is not the case check the terminals output for errors, if you are unable to troubleshoot the problem, I would be happy to address issues so open [one](/issues)
 
 ---
 
