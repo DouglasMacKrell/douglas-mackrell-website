@@ -65,10 +65,11 @@
 }
 
 .skills__skills-container i {
-  padding-left: 25px;
-  padding-right: 25px;
+  padding-left: 35px;
+  padding-right: 35px;
   padding-bottom: 25px;
   font-size: 4rem;
+  color: yellow;
 }
 
 .skills__skills-container ul {
@@ -78,14 +79,6 @@
 
 .skills__skills-container li {
   padding-bottom: 10px;
-}
-
-.skills__skills-container i:hover,
-.skills__skills-container i:active {
-  padding-left: 25px;
-  padding-right: 25px;
-  font-size: 4rem;
-  color: yellow;
 }
 
 .skills__icons {
@@ -112,18 +105,15 @@
 }
 
 .icon-container p {
-  visibility: hidden;
-}
-
-.icon-container:hover p,
-.icon-container:active p {
-  visibility: visible;
+  color: yellow;
 }
 
 .svg {
   width: 64px;
-  padding: 0 25px;
-  fill: white;
+  height: 63px;
+  padding: 0 35px;
+  margin: 0;
+  fill: yellow;
 }
 
 svg:hover,
