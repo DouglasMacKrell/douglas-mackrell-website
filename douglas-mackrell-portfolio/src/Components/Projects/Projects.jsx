@@ -6,6 +6,7 @@ import YouDown from "./You-Down-With.gif";
 import PantryParty from "./Pantry-Party-Site-Display.gif";
 import DougTV from "./DougTV.gif";
 import GFHangman from "./GF-Hangman.gif";
+import PunchChowder from "./punch-chowder-siteS.gif";
 
 import "./Projects.css";
 
@@ -19,9 +20,19 @@ const Projects = () => {
           <div className="spacer" />
           <div className="projects__card-container">
             <ProjectCard
+              title="Punch Chowder"
+              content={`<em>Punch Chowder<em> Full Stack Web App created to serve all 70 HD episodes of Rise Of The Teenage Mutant Ninja Turtles, and help the purposefully-neglected critically-acclaimed show reach a new audience. The site is 100% ad free, and designed for ease of use, so users of all ages can quickly access the episodes! <hr style="height:2px;color:purple;background-color:purple"> <a href="https://punchchowder.com"><i class="fas fa-link"></i>LIVE LINK</a> <br> <a href="https://github.com/DouglasMacKrell/punch-chowder"><i class="fab fa-github"></i>GITHUB REPO</a> <br> <a href="https://youtu.be/DzURPJnaEjs"><i class="fab fa-youtube"></i>VIDEO OF SITE SHOWCASE<a>`}
+              image={PunchChowder}
+            />
+            <ProjectCard
               title="Pantry Party"
               content={`<em>Pantry Party</em> is a one-to-many video broadcasting platform designed to allow users to create and curate recipes, connect with an audience, and host live cooking shows centered around those recipes with easy to use onscreen tools. The unique video broadcast feature is powered by a peer connection established through WebRTC and socket.io! <hr style="height:2px;color:purple;background-color:purple"> <i class="fas fa-trophy"></i><em>Audience Choice Award</em>, 2020 Clorox DTC + Pursuit 6.2 Capstone Technical Showcase <br> <a href="https://www.pantry-party.com"><i class="fas fa-link"></i>LIVE LINK</a> <br> <a href="https://github.com/sislam16/Pantry-Party"><i class="fab fa-github"></i>GITHUB REPO</a> <br> <a href="https://youtu.be/m-SA19aFIcw"><i class="fab fa-youtube"></i>VIDEO OF TECHNICAL SHOWCASE<a>`}
               image={PantryParty}
+            />
+            <ProjectCard
+              title="DougTV"
+              content={`<em>DougTV</em> is a one-to-many Video Broadcasting Full Stack Web App that allows users to broadcast a live video stream to an audience anywhere in the world! Built as a proof of concept and learning exercise while creating <em>Pantry Party, DougTV</em> stands as a fully functional video broadcast system designed for quick and easy use. <hr style="height:2px;color:purple;background-color:purple"> <a href="https://dougtv.herokuapp.com/"><i class="fas fa-link"></i>LIVE LINK</a> <br> <a href="https://github.com/DouglasMacKrell/DougTV"><i class="fab fa-github"></i>GITHUB REPO</a> <br> <a href="https://youtu.be/MhrdFbG6gCU"><i class="fab fa-youtube"></i>VIDEO CODE REVIEW</a>`}
+              image={DougTV}
             />
             <ProjectCard
               title="Hand Me Down"
@@ -32,11 +43,6 @@ const Projects = () => {
               title="You Down With ELT?"
               content={`<em>You Down With ELT?</em> is an Gameshow App built in collaboration with Pfizer’s Global Security Team Leadership and Securitas for their annual All Hands Guard Force Training Event. Its purpose is to train Site Security Officers on the identities of Pfizer’s Executive Leadership Team and Board of Directors in a fun and engaging way. While the game is designed to be played with up to 3 players, <em>You Down With ELT?</em> can also be played by a single player who will be given a letter grade at the end depending on their score for one-on-one facilitated training exercises. The entire Web App was designed in plain HTML5, JavaScript, and CSS3! <hr style="height:2px;color:purple;background-color:purple"> <a href="https://douglasmackrell.github.io/ELT-Gameshow/"><i class="fas fa-link"></i>LIVE LINK</a> <br> <a href="https://github.com/DouglasMacKrell/ELT-Gameshow"><i class="fab fa-github"></i>GITHUB REPO</a>`}
               image={YouDown}
-            />
-            <ProjectCard
-              title="DougTV"
-              content={`<em>DougTV</em> is a one-to-many Video Broadcasting Full Stack Web App that allows users to broadcast a live video stream to an audience anywhere in the world! Built as a proof of concept and learning exercise while creating <em>Pantry Party, DougTV</em> stands as a fully functional video broadcast system designed for quick and easy use. <hr style="height:2px;color:purple;background-color:purple"> <a href="https://dougtv.herokuapp.com/"><i class="fas fa-link"></i>LIVE LINK</a> <br> <a href="https://github.com/DouglasMacKrell/DougTV"><i class="fab fa-github"></i>GITHUB REPO</a> <br> <a href="https://youtu.be/MhrdFbG6gCU"><i class="fab fa-youtube"></i>VIDEO CODE REVIEW</a>`}
-              image={DougTV}
             />
             <ProjectCard
               title="Gravity Falls Hangman"
