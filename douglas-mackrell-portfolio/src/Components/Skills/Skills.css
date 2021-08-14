@@ -1,6 +1,6 @@
 .skills {
   min-height: 100%;
-  background-image: url(./Yellow_GrungeBG.jpg);
+  background-image: url(./Blue_GrungeBG.jpg);
   background-position: center;
   background-attachment: fixed;
   background-size: cover;
@@ -16,8 +16,8 @@
 .skills__sub-container {
   padding: 5% 5%;
   color: white;
-  background: red;
-  border: 5px lightcoral solid;
+  background: purple;
+  border: 5px palevioletred solid;
   border-radius: 20px;
 }
 
@@ -29,7 +29,7 @@
 .skills__sub-container button {
   margin-bottom: 35px;
   font-size: 1rem;
-  background-color: yellow;
+  background-color: white;
   color: black;
   padding: 12px;
   border-radius: 10px;
@@ -69,7 +69,7 @@
   padding-right: 35px;
   padding-bottom: 25px;
   font-size: 4rem;
-  color: yellow;
+  color: white;
 }
 
 .skills__skills-container ul {
@@ -105,7 +105,7 @@
 }
 
 .icon-container p {
-  color: yellow;
+  color: white;
 }
 
 .svg {
@@ -113,12 +113,7 @@
   height: 63px;
   padding: 0 35px;
   margin: 0;
-  fill: yellow;
-}
-
-svg:hover,
-svg:active {
-  fill: yellow;
+  fill: white;
 }
 
 @media (max-width: 768px) {

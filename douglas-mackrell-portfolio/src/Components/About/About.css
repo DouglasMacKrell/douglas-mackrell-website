@@ -1,6 +1,6 @@
 .about {
   min-height: 100%;
-  background-image: url(./Red_GrungeBG2.jpg);
+  background-image: url(./Blue_GrungeBG.jpg);
   background-position: center;
   background-attachment: fixed;
   background-size: cover;
@@ -16,8 +16,9 @@
   display: grid;
   grid-template-rows: auto;
   padding: 5% 5%;
-  background: royalblue;
-  border: 5px skyblue solid;
+  color: white;
+  background: purple;
+  border: 5px palevioletred solid;
   border-radius: 20px;
 }
 
@@ -28,7 +29,7 @@
 }
 
 .about__sub-container a {
-  color: red;
+  color: skyblue;
   font-weight: bold;
 }
 
