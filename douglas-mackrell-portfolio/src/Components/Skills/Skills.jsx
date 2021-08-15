@@ -97,7 +97,7 @@ const Skills = () => {
                         transform="translate(123.503283, 147.732241) scale(1, -1) translate(-123.503283, -147.732241) "
                       ></path>
                     </g>
-                  </svg>{" "}
+                  </svg>
                   <p>WebRTC</p>
                 </div>
                 <div className="icon-container">
