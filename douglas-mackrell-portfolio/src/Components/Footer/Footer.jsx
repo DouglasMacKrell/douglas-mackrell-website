@@ -18,6 +18,15 @@ const Footer = () => {
               </a>
             </span>
             <div className="spacer" />
+            <span className="linkedin">
+              <a
+                target="__blank"
+                href="https://www.linkedin.com/in/douglasmackrell/"
+              >
+                <i class="devicon-linkedin-plain fab"></i>
+              </a>
+            </span>
+            <div className="spacer" />
             <span className="twitter">
               <a target="__blank" href="https://twitter.com/DouglasMacKrell">
                 <i class="fab fa-twitter"></i>
